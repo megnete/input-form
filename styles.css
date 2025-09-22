@@ -1,12 +1,19 @@
 body{
-    background-color: rgb(157, 137, 137);
-    margin: 8rem;
-}
+    background-color: rgb(157, 137, 137);}
 
 input{
     width: 20rem;
     display: block;
     margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+
+form{
+    width: 30rem;
+    margin: 3rem auto;
+    background-color: aliceblue;
+    padding: 1rem;
+    border-radius: 6px;
 }
 
 button{
