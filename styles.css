@@ -1,5 +1,11 @@
 body {
-  background-color: rgb(157, 137, 137);
+  background-color: rgb(165, 209, 234);
+  font-family: "Bitcount Single Ink", sans-serif;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  display: block;
 }
 
 input {
@@ -7,6 +13,10 @@ input {
   display: block;
   margin-bottom: 1rem;
   box-sizing: border-box;
+  font: inherit;
+  border: 1px solid white;
+  padding: 0.25rem;
+  color: bisque;
 }
 
 form {
@@ -17,6 +27,24 @@ form {
   border-radius: 6px;
 }
 
+input:focus {
+  background-color: rgb(166, 216, 216);
+  color: beige;
+  border-color: antiquewhite;
+}
+
 button {
   display: block;
+  font: inherit;
+  background-color: azure;
+  color: white;
+  border: 1px rgb(46, 133, 203);
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(152, 195, 233);
+  border-color: aqua;
 }
