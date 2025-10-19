@@ -52,22 +52,26 @@ button:hover {
   border-color: aqua;
 }
 
-.form-control-inline{
+.form-control-inline {
   display: flex;
 }
 
-.form-control-inline input{
+.form-control-inline input {
   width: auto;
   margin-right: 0.5rem;
 }
 
-h1{
+h1 {
   text-align: center;
   color: wheat;
 }
 
-ul{
+ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+textarea {
+  resize: none;
 }
